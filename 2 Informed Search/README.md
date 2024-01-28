@@ -120,10 +120,6 @@ By integrating the parity check, before even starting the search, one can quickl
 
 ## Blind robot with Pacman physics
 
-### Heuristic for A* Search: Number of belief states
-
-It is optimistic
-
 #### Extension: I also implement a BFS search algorithm to solve Sensorless Problem and compare it with the A* algorithm, it shows that A* algorithm could save a lot of time.
 
 ## Literature Review 
