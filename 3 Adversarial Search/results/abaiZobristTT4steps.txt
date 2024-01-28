@@ -1,0 +1,606 @@
+Moves can be entered using four characters. For example, d2d4 moves the piece at d2 to d4.
+Game Start!
+White (Upper Case): Minimax AI with Alpha-Beta Pruning and Zobrist TT (search depth: 4)
+Black (Lower Case): Random AI
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+P P P P P P P P
+R N B Q K B N R
+----------------
+a b c d e f g h
+
+Round: 1
+White to move
+
+Minimax AI with Alpha-Beta Pruning and Zobrist TT recommending move g1h3
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . N
+P P P P P P P P
+R N B Q K B . R
+----------------
+a b c d e f g h
+
+Round: 1
+Black to move
+
+Random AI recommending move h7h6
+r n b q k b n r
+p p p p p p p .
+. . . . . . . p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . N
+P P P P P P P P
+R N B Q K B . R
+----------------
+a b c d e f g h
+
+Round: 2
+White to move
+
+Minimax AI with Alpha-Beta Pruning and Zobrist TT recommending move h3f4
+r n b q k b n r
+p p p p p p p .
+. . . . . . . p
+. . . . . . . .
+. . . . . N . .
+. . . . . . . .
+P P P P P P P P
+R N B Q K B . R
+----------------
+a b c d e f g h
+
+Round: 2
+Black to move
+
+Random AI recommending move a7a5
+r n b q k b n r
+. p p p p p p .
+. . . . . . . p
+p . . . . . . .
+. . . . . N . .
+. . . . . . . .
+P P P P P P P P
+R N B Q K B . R
+----------------
+a b c d e f g h
+
+Round: 3
+White to move
+
+Minimax AI with Alpha-Beta Pruning and Zobrist TT recommending move f4h5
+r n b q k b n r
+. p p p p p p .
+. . . . . . . p
+p . . . . . . N
+. . . . . . . .
+. . . . . . . .
+P P P P P P P P
+R N B Q K B . R
+----------------
+a b c d e f g h
+
+Round: 3
+Black to move
+
+Random AI recommending move b8c6
+r . b q k b n r
+. p p p p p p .
+. . n . . . . p
+p . . . . . . N
+. . . . . . . .
+. . . . . . . .
+P P P P P P P P
+R N B Q K B . R
+----------------
+a b c d e f g h
+
+Round: 4
+White to move
+
+Minimax AI with Alpha-Beta Pruning and Zobrist TT recommending move h5f4
+r . b q k b n r
+. p p p p p p .
+. . n . . . . p
+p . . . . . . .
+. . . . . N . .
+. . . . . . . .
+P P P P P P P P
+R N B Q K B . R
+----------------
+a b c d e f g h
+
+Round: 4
+Black to move
+
+Random AI recommending move c6d4
+r . b q k b n r
+. p p p p p p .
+. . . . . . . p
+p . . . . . . .
+. . . n . N . .
+. . . . . . . .
+P P P P P P P P
+R N B Q K B . R
+----------------
+a b c d e f g h
+
+Round: 5
+White to move
+
+Minimax AI with Alpha-Beta Pruning and Zobrist TT recommending move e2e3
+r . b q k b n r
+. p p p p p p .
+. . . . . . . p
+p . . . . . . .
+. . . n . N . .
+. . . . P . . .
+P P P P . P P P
+R N B Q K B . R
+----------------
+a b c d e f g h
+
+Round: 5
+Black to move
+
+Random AI recommending move a8a7
+. . b q k b n r
+r p p p p p p .
+. . . . . . . p
+p . . . . . . .
+. . . n . N . .
+. . . . P . . .
+P P P P . P P P
+R N B Q K B . R
+----------------
+a b c d e f g h
+
+Round: 6
+White to move
+
+Minimax AI with Alpha-Beta Pruning and Zobrist TT recommending move e3d4
+. . b q k b n r
+r p p p p p p .
+. . . . . . . p
+p . . . . . . .
+. . . P . N . .
+. . . . . . . .
+P P P P . P P P
+R N B Q K B . R
+----------------
+a b c d e f g h
+
+Round: 6
+Black to move
+
+Random AI recommending move d7d5
+. . b q k b n r
+r p p . p p p .
+. . . . . . . p
+p . . p . . . .
+. . . P . N . .
+. . . . . . . .
+P P P P . P P P
+R N B Q K B . R
+----------------
+a b c d e f g h
+
+Round: 7
+White to move
+
+Minimax AI with Alpha-Beta Pruning and Zobrist TT recommending move f4h5
+. . b q k b n r
+r p p . p p p .
+. . . . . . . p
+p . . p . . . N
+. . . P . . . .
+. . . . . . . .
+P P P P . P P P
+R N B Q K B . R
+----------------
+a b c d e f g h
+
+Round: 7
+Black to move
+
+Random AI recommending move e7e6
+. . b q k b n r
+r p p . . p p .
+. . . . p . . p
+p . . p . . . N
+. . . P . . . .
+. . . . . . . .
+P P P P . P P P
+R N B Q K B . R
+----------------
+a b c d e f g h
+
+Round: 8
+White to move
+
+Minimax AI with Alpha-Beta Pruning and Zobrist TT recommending move h5f4
+. . b q k b n r
+r p p . . p p .
+. . . . p . . p
+p . . p . . . .
+. . . P . N . .
+. . . . . . . .
+P P P P . P P P
+R N B Q K B . R
+----------------
+a b c d e f g h
+
+Round: 8
+Black to move
+
+Random AI recommending move d8h4
+. . b . k b n r
+r p p . . p p .
+. . . . p . . p
+p . . p . . . .
+. . . P . N . q
+. . . . . . . .
+P P P P . P P P
+R N B Q K B . R
+----------------
+a b c d e f g h
+
+Round: 9
+White to move
+
+Minimax AI with Alpha-Beta Pruning and Zobrist TT recommending move g2g3
+. . b . k b n r
+r p p . . p p .
+. . . . p . . p
+p . . p . . . .
+. . . P . N . q
+. . . . . . P .
+P P P P . P . P
+R N B Q K B . R
+----------------
+a b c d e f g h
+
+Round: 9
+Black to move
+
+Random AI recommending move g7g6
+. . b . k b n r
+r p p . . p . .
+. . . . p . p p
+p . . p . . . .
+. . . P . N . q
+. . . . . . P .
+P P P P . P . P
+R N B Q K B . R
+----------------
+a b c d e f g h
+
+Round: 10
+White to move
+
+Minimax AI with Alpha-Beta Pruning and Zobrist TT recommending move f1b5
+. . b . k b n r
+r p p . . p . .
+. . . . p . p p
+p B . p . . . .
+. . . P . N . q
+. . . . . . P .
+P P P P . P . P
+R N B Q K . . R
+----------------
+a b c d e f g h
+
+Round: 10
+Black to move
+
+Random AI recommending move e8e7
+. . b . . b n r
+r p p . k p . .
+. . . . p . p p
+p B . p . . . .
+. . . P . N . q
+. . . . . . P .
+P P P P . P . P
+R N B Q K . . R
+----------------
+a b c d e f g h
+
+Round: 11
+White to move
+
+Minimax AI with Alpha-Beta Pruning and Zobrist TT recommending move g3h4
+. . b . . b n r
+r p p . k p . .
+. . . . p . p p
+p B . p . . . .
+. . . P . N . P
+. . . . . . . .
+P P P P . P . P
+R N B Q K . . R
+----------------
+a b c d e f g h
+
+Round: 11
+Black to move
+
+Random AI recommending move c8d7
+. . . . . b n r
+r p p b k p . .
+. . . . p . p p
+p B . p . . . .
+. . . P . N . P
+. . . . . . . .
+P P P P . P . P
+R N B Q K . . R
+----------------
+a b c d e f g h
+
+Round: 12
+White to move
+
+Minimax AI with Alpha-Beta Pruning and Zobrist TT recommending move b5d7
+. . . . . b n r
+r p p B k p . .
+. . . . p . p p
+p . . p . . . .
+. . . P . N . P
+. . . . . . . .
+P P P P . P . P
+R N B Q K . . R
+----------------
+a b c d e f g h
+
+Round: 12
+Black to move
+
+Random AI recommending move a5a4
+. . . . . b n r
+r p p B k p . .
+. . . . p . p p
+. . . p . . . .
+p . . P . N . P
+. . . . . . . .
+P P P P . P . P
+R N B Q K . . R
+----------------
+a b c d e f g h
+
+Round: 13
+White to move
+
+Minimax AI with Alpha-Beta Pruning and Zobrist TT recommending move d7b5
+. . . . . b n r
+r p p . k p . .
+. . . . p . p p
+. B . p . . . .
+p . . P . N . P
+. . . . . . . .
+P P P P . P . P
+R N B Q K . . R
+----------------
+a b c d e f g h
+
+Round: 13
+Black to move
+
+Random AI recommending move h8h7
+. . . . . b n .
+r p p . k p . r
+. . . . p . p p
+. B . p . . . .
+p . . P . N . P
+. . . . . . . .
+P P P P . P . P
+R N B Q K . . R
+----------------
+a b c d e f g h
+
+Round: 14
+White to move
+
+Minimax AI with Alpha-Beta Pruning and Zobrist TT recommending move g8f6
+. . . . . b . .
+r p p . k p . r
+. . . . p N p p
+. B . p . . . .
+p . . P . N . P
+. . . . . . . .
+P P P P . P . P
+R N B Q K . . R
+----------------
+a b c d e f g h
+
+Round: 14
+Black to move
+
+Random AI recommending move g6g5
+. . . . . b . .
+r p p . k p . r
+. . . . p N . p
+. B . p . . p .
+p . . P . N . P
+. . . . . . . .
+P P P P . P . P
+R N B Q K . . R
+----------------
+a b c d e f g h
+
+Round: 15
+White to move
+
+Minimax AI with Alpha-Beta Pruning and Zobrist TT recommending move f6h7
+. . . . . b . .
+r p p . k p . N
+. . . . p . . p
+. B . p . . p .
+p . . P . N . P
+. . . . . . . .
+P P P P . P . P
+R N B Q K . . R
+----------------
+a b c d e f g h
+
+Round: 15
+Black to move
+
+Random AI recommending move g5g4
+. . . . . b . .
+r p p . k p . N
+. . . . p . . p
+. B . p . . . .
+p . . P . N p P
+. . . . . . . .
+P P P P . P . P
+R N B Q K . . R
+----------------
+a b c d e f g h
+
+Round: 16
+White to move
+
+Minimax AI with Alpha-Beta Pruning and Zobrist TT recommending move h7f8
+. . . . . N . .
+r p p . k p . .
+. . . . p . . p
+. B . p . . . .
+p . . P . N p P
+. . . . . . . .
+P P P P . P . P
+R N B Q K . . R
+----------------
+a b c d e f g h
+
+Round: 16
+Black to move
+
+Random AI recommending move e7f8
+. . . . . k . .
+r p p . . p . .
+. . . . p . . p
+. B . p . . . .
+p . . P . N p P
+. . . . . . . .
+P P P P . P . P
+R N B Q K . . R
+----------------
+a b c d e f g h
+
+Round: 17
+White to move
+
+Minimax AI with Alpha-Beta Pruning and Zobrist TT recommending move d1g4
+. . . . . k . .
+r p p . . p . .
+. . . . p . . p
+. B . p . . . .
+p . . P . N Q P
+. . . . . . . .
+P P P P . P . P
+R N B . K . . R
+----------------
+a b c d e f g h
+
+Round: 17
+Black to move
+
+Random AI recommending move c7c5
+. . . . . k . .
+r p . . . p . .
+. . . . p . . p
+. B p p . . . .
+p . . P . N Q P
+. . . . . . . .
+P P P P . P . P
+R N B . K . . R
+----------------
+a b c d e f g h
+
+Round: 18
+White to move
+
+Minimax AI with Alpha-Beta Pruning and Zobrist TT recommending move d4c5
+. . . . . k . .
+r p . . . p . .
+. . . . p . . p
+. B P p . . . .
+p . . . . N Q P
+. . . . . . . .
+P P P P . P . P
+R N B . K . . R
+----------------
+a b c d e f g h
+
+Round: 18
+Black to move
+
+Random AI recommending move e6e5
+. . . . . k . .
+r p . . . p . .
+. . . . . . . p
+. B P p p . . .
+p . . . . N Q P
+. . . . . . . .
+P P P P . P . P
+R N B . K . . R
+----------------
+a b c d e f g h
+
+Round: 19
+White to move
+
+Minimax AI with Alpha-Beta Pruning and Zobrist TT recommending move g4c8
+. . Q . . k . .
+r p . . . p . .
+. . . . . . . p
+. B P p p . . .
+p . . . . N . P
+. . . . . . . .
+P P P P . P . P
+R N B . K . . R
+----------------
+a b c d e f g h
+
+Round: 19
+Black to move
+
+Random AI recommending move f8e7
+. . Q . . . . .
+r p . . k p . .
+. . . . . . . p
+. B P p p . . .
+p . . . . N . P
+. . . . . . . .
+P P P P . P . P
+R N B . K . . R
+----------------
+a b c d e f g h
+
+Round: 20
+White to move
+
+Minimax AI with Alpha-Beta Pruning and Zobrist TT recommending move f4d5
+. . Q . . . . .
+r p . . k p . .
+. . . . . . . p
+. B P N p . . .
+p . . . . . . P
+. . . . . . . .
+P P P P . P . P
+R N B . K . . R
+----------------
+a b c d e f g h
+
+Round: 20
+Black to move
+
+Game end after 20 round
+Total time used: 31.778082847595215.
+Checkmate! White (Minimax AI with Alpha-Beta Pruning and Zobrist TT (search depth: 4)) wins!
