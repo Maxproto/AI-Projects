@@ -57,7 +57,7 @@ A useful heuristic might be the sum of the Manhattan distances from each robot t
 
 ##### 6. Extra test
 
-result of maze with size 15*15
+###### Result of maze with size 15*15
 
 number of nodes visited: 108443
 
@@ -67,7 +67,7 @@ cost: 54
 
 
 
-result of maze with size 20*20
+###### Result of maze with size 20*20
 
 number of nodes visited: 6156725
 
@@ -77,7 +77,7 @@ cost: 82
 
 
 
-result of maze with size 30*30
+###### Result of maze with size 30*30
 
 number of nodes visited: 3309539
 
