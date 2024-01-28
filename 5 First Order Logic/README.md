@@ -129,7 +129,7 @@ There are several helper functions like `_evaluate_clause()` and `_count_true_cl
 
 - `puzzle2.cnf`: Some different starting values.
 
-  ![](figures\puzzle2_output.png)
+  ![](figures/puzzle2_output.png)
 
 - `puzzle3.cnf`: Several starting values.
 
