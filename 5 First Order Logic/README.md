@@ -30,8 +30,6 @@ This algorithm starts with a random assignment and then iteratively refines it. 
 
 Similar to GSAT but with a slight variation: it picks an unsatisfied clause at random and then flips one of its literals. The decision of which literal to flip is based on either a random choice or the one that results in the most satisfied clauses.
 
-
-
 ## Implementation Details
 
 The SAT solver is designed to be generic, allowing for its use in solving different CNF problems beyond just Sudoku. Here's a brief overview of the code structure:
@@ -115,7 +113,7 @@ There are several helper functions like `_evaluate_clause()` and `_count_true_cl
 
 - `rows.cnf`: rules that ensure that all cells have a value, and every row has nine unique values.
 
-  ![](figures\rows_output.png)
+  ![](figures/rows_output.png)
 
 - `rows_and_cols.cnf`: rules that ensure that all cells have a value, every row has nine unique values, and every column has nine unique values.
 
