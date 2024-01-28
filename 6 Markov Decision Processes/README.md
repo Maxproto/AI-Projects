@@ -1,4 +1,4 @@
-#### Markov Decision Processes and Robot motion planning
+# Markov Decision Processes and Robot motion planning
 
 *For the basic test, simply run the filtering.py;*
 *For the extension, run forward_backward_smoothing.py and viterbi.py respectively*
