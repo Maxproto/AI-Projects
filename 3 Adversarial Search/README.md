@@ -1,4 +1,4 @@
-# Assignment 3: Chess AI
+# Chess AI
 
 *To run the experiments:*
 *simply change the player to the AI you want to use in test_chess.py*
