@@ -1,4 +1,4 @@
-# CSP
+# Constraint Satisfaction Problem
 
 ### 1. Backtracking solver
 
