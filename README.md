@@ -47,6 +47,3 @@ Contributions to enhance or extend the projects are welcome. Please follow the s
 
 ## License
 This project is released under the MIT License.
-
-## Contact
-For questions or collaborations, feel free to reach out.
