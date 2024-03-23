@@ -125,15 +125,15 @@ def draw_robot_arm(end_points, obstacles=None, collision=False):
 
 **Initialization**
 
-<img src="motion_plan/4R/robot_arm.png" alt="robot_arm" width="250"/>
+<img src="motion_plan/4R/robot_arm.png" alt="robot_arm" width="500"/>
 
 **RoadMap**
 
-<img src="motion_plan/4R/roadmap.png" alt="roadmap" width="250"/>
+<img src="motion_plan/4R/roadmap.png" alt="roadmap" width="500"/>
 
 **Path**
 
-<img src="motion_plan/4R/path.png" alt="path" width="250"/>
+<img src="motion_plan/4R/path.png" alt="path" width="500"/>
 
 ### PRM Algorithm
 
