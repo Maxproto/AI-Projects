@@ -1,7 +1,7 @@
 ## A-star search
 
 *To test the require problem:*
-*Run test_mazeworld.py & test_sensorless.py & BONUS_test_simultaneous.py*
+*run test_mazeworld.py & test_sensorless.py & BONUS_test_simultaneous.py*
 
 *To generate random maze:*
 *run random_maze.py*
